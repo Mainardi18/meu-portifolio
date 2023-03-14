@@ -154,7 +154,7 @@ body
     .Apresentacao 
     {
         flex-direction: column-reverse;
-        padding: 10%;
+        padding: 15%;
     }
     .Apresentacao__conteudo
     {
