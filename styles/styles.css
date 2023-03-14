@@ -2,9 +2,10 @@
 
 :root
 {
-    --cor-principal: #000000;
+    --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -111,7 +112,7 @@ body
 }
 .Apresentacao__link__navegacao:hover
 {
-    background-color: #272727;
+    background-color: var(--cor-hover);
     color: var(--cor-terciaria);
 }
 
@@ -159,6 +160,5 @@ body
     .Apresentacao__conteudo
     {
         width: auto;
-        padding: 20%;
     }
 }
